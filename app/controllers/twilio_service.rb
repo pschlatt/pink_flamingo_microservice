@@ -5,7 +5,7 @@ require 'twilio-ruby'
 
 
 
-
+    / Twilio API tokens are dead
     get '/texter' do
       jhash = params
       binding.pry
@@ -21,3 +21,6 @@ require 'twilio-ruby'
       body: body
       )
     end
+    
+    / need to post to main service DB
+ 
